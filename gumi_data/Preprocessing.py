@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load Excel file
-data1 = pd.read_excel('C:\\Users\\HP\\gumi_project\\gumi_data\\data_one.xlsx')
+data1 = pd.read_excel('C:\\Users\\NSL\\gumi_project\\1. +í¦--÷++¦¦++-+ +t+˜ -n+¬¦G+˜ +í¦--÷ ¦Ñ+¦+-\\data_one.xlsx')
 
 # Preview the data
 print(data1.head())
@@ -32,3 +32,4 @@ data1['계측기명'].fillna(0, inplace=True)
 
 # Preview the data
 print(data1.head())
+
