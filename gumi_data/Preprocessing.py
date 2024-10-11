@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load Excel file
-data1 = pd.read_excel('C:\\Users\HP\\Downloads\\1. 에너지자급자족 사업 참여기업 에너지 데이터\\1. +í¦--÷++¦¦++-+ +t+˜ -n+¬¦G+˜ +í¦--÷ ¦Ñ+¦+-\\data_one.xlsx')
+data1 = pd.read_excel('C:\\Users\\NSL\\gumi_project\\1. +í¦--÷++¦¦++-+ +t+˜ -n+¬¦G+˜ +í¦--÷ ¦Ñ+¦+-\\data_one.xlsx')
 
 # Preview the data
 print(data1.head())
