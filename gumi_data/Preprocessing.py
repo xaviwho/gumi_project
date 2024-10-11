@@ -27,5 +27,8 @@ print(data1.dtypes)
 # Convert a specific column to numeric, errors='coerce' will set non-convertible values to NaN
 data1['계측기명'] = pd.to_numeric(data1['계측기명'], errors='coerce')
 
+# Fill NaN values with a number, for example, zero
+data1['계측기명'].fillna(0, inplace=True)
+
 # Preview the data
 print(data1.head())
