@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load Excel file
-data1 = pd.read_excel('C:\\Users\\NSL\\gumi_project\\1. +í¦--÷++¦¦++-+ +t+˜ -n+¬¦G+˜ +í¦--÷ ¦Ñ+¦+-\\data_one.xlsx')
+data1 = pd.read_excel('C:\\Users\\NSL\\gumi_project\\gumi_data\\data_one.xlsx')
 
 # Preview the data
 print(data1.head())
@@ -21,3 +21,7 @@ print(distinct_counts)
 value_counts = data1['계측기명'].value_counts(dropna=False)
 print(value_counts)
 
+# Check data types of each column
+print(data1.dtypes)
+
+ 
